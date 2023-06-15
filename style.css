@@ -1,0 +1,36 @@
+html {
+    #header {
+        word-spacing:2px;
+        letter-spacing:0.2px;
+        color:red;
+        text-align: center;
+        font-size:.7cm;
+        text-shadow: -1px -1px 2px #000, 1px -1px 2px #000, -1px 1px 2px #000, 1px 1px 2px #000;
+    }
+
+    #body {
+        color:white;
+        word-spacing:2px;
+        letter-spacing:0.2px;
+        text-shadow: 0px 1px 1px black;
+        text-transform: uppercase;
+    }
+
+    #footer {
+        word-spacing:2px;
+        letter-spacing:0.2px;
+        color:lime;
+        text-align: center;
+        text-shadow: -1px -1px 5px #000, 1px -1px 5px #000, -1px 1px 5px #000, 1px 1px 5px #000;
+
+        #head {
+            font-size:.7cm;
+            
+        }
+    }
+} 
+
+body {
+    background-color:whitesmoke;
+    background-image: url('bg.png');
+}
